@@ -1,0 +1,54 @@
+<div class="text-center">
+  <img src="./assets/icon/Group 3.png" alt="" class="back-image" />
+</div>
+<div class="container ">
+  <div class="card text-primary mb-3" style="max-width: 25rem;">
+    <div class="card-body">
+      <form
+        class="form-horizontal"
+        #loginForm="ngForm"
+        (ngSubmit)="login(loginForm)"
+      >
+        <div class="form-group">
+          <label class="control-label " for="email">Email:</label>
+
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+            ngModel
+            #email="ngModel"
+            name="email"
+            type="email"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group ">
+          <label class="control-label " for="pwd">Password:</label>
+
+          <input
+            type="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Enter password"
+            ngModel
+            #password="ngModel"
+            name="password"
+            type="password"
+            class="form-control"
+          />
+        </div>
+        <br />
+        <div class="form-group">
+          <input
+            type="submit"
+            name="submit"
+            value="Login"
+            class="btn btn-primary m-2"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

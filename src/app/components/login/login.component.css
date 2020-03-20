@@ -1,0 +1,19 @@
+.card {
+    padding: 20px 10px;
+    border: none;
+}
+.btn {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.16);
+    width: 100% ;
+}
+.back-image {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    width: 80vw;
+    left: 11%;
+}
+.card {
+    margin-top: 40vh;
+    margin-left: 33%;
+}
