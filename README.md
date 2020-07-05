@@ -11,11 +11,11 @@ Automatically make an emergency call to the nearest accident care systems (e.g. 
 - Car Theft will be avoided by acquiring the location of the registered car anytime at a press of a button in the Mobile App. 
 - Windshield breaking will be identified via sensors and  the user will be alerted via the Mobile App.
 
-## Use Cases : 
-
-
 ## Working Diagram : 
+![SIH](./SIH.png)
 
+## Use Cases : 
+![SIH2](./SIH2.png)
 
 ## Technology Stack :
 Node, Angular, Firebase, Python, Raspberry Pi
